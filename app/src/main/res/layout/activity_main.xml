@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:background="#12c0f5"
+    tools:context="com.example.eduardopalacios.sharedpreferencesejercicio.MainActivity">
+
+
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="30dp"
+        android:src="@drawable/logo"
+        android:id="@+id/logo"
+        android:layout_centerHorizontal="true"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/campocorreo"
+        android:layout_marginBottom="20dp"
+        android:layout_below="@id/logo"
+        android:hint="Correo Electronico"
+        android:textColorHint="#ffffff"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/campocontraseña"
+        android:layout_below="@id/campocorreo"
+        android:hint="Contraseña"
+        android:textColorHint="#ffffff"
+        />
+
+
+
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/recordarme"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="30dp"
+        android:text="Recordarme"
+        android:textColor="#ffffff"
+        android:theme="@style/checkbox"
+        android:layout_below="@id/campocontraseña"/>
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnAceptar"
+        android:text="Aceptar"
+        android:textColor="#ffffff"
+        android:background="@drawable/disenio_botones"
+        android:layout_below="@id/recordarme"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="¿Aun no tienes una cuenta? Crea una"
+        android:textColor="#ffffff"
+        android:layout_below="@id/btnAceptar"
+        android:layout_centerHorizontal="true"/>
+
+
+
+
+
+
+
+</RelativeLayout>

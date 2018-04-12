@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#f59a12"
+    android:padding="20dp"
+    tools:context="com.example.eduardopalacios.sharedpreferencesejercicio.Main2Activity">
+
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="30dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/logo"
+        android:id="@+id/logo" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/campoNombre"
+        android:layout_marginBottom="30dp"
+        android:hint="Nombre"
+        android:textColorHint="#ffffff"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/campoCorreo"
+        android:layout_marginBottom="30dp"
+        android:hint="Correo"
+        android:textColorHint="#fcfcfc"/>
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/campocontraseña"
+        android:layout_marginBottom="50dp"
+        android:hint="Contraseña"
+        android:textColorHint="#ffffff"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/btnCancelar"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="#f9b15a"
+            android:text="Cancelar"
+            android:textColor="#ffffff" />
+
+        <Button
+            android:id="@+id/btnAceptar"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="#f9b15a"
+            android:text="Aceptar"
+            android:textColor="#ffffff" />
+    </LinearLayout>
+
+
+</LinearLayout>

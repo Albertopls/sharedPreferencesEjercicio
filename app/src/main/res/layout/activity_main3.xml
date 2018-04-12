@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#57c95d"
+    android:padding="20dp"
+    tools:context="com.example.eduardopalacios.sharedpreferencesejercicio.Main3Activity">
+
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="30dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/logo"
+        android:id="@+id/logo" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/TvNombre"
+        android:layout_marginBottom="30dp"
+        android:text="Nombre"
+        android:textColor="#ffffff"
+        android:textSize="25dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/TvCorreo"
+        android:layout_marginBottom="30dp"
+        android:text="Correo"
+        android:textColor="#ffffff"
+        android:textSize="25dp"
+        />
+
+    <Button
+        android:id="@+id/btnResetear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:backgroundTint="#f7f7f7"
+        android:text="Resetear shared preferences"
+        android:textColor="#5c5c5c" />
+
+
+
+</LinearLayout>
