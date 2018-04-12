@@ -21,7 +21,7 @@
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/campocorreo"
+        android:id="@+id/campocorreo1"
         android:layout_marginBottom="20dp"
         android:layout_below="@id/logo"
         android:hint="Correo Electronico"
@@ -30,8 +30,8 @@
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/campocontraseña"
-        android:layout_below="@id/campocorreo"
+        android:id="@+id/campocontraseña1"
+        android:layout_below="@id/campocorreo1"
         android:hint="Contraseña"
         android:textColorHint="#ffffff"
         />
@@ -48,13 +48,13 @@
         android:text="Recordarme"
         android:textColor="#ffffff"
         android:theme="@style/checkbox"
-        android:layout_below="@id/campocontraseña"/>
+        android:layout_below="@id/campocontraseña1"/>
 
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/btnAceptar"
+        android:id="@+id/btnAceptar1"
         android:text="Aceptar"
         android:textColor="#ffffff"
         android:background="@drawable/disenio_botones"
@@ -62,13 +62,14 @@
         />
 
     <TextView
+        android:id="@+id/TvCrear"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_below="@id/btnAceptar1"
+        android:layout_centerHorizontal="true"
         android:layout_marginTop="20dp"
         android:text="¿Aun no tienes una cuenta? Crea una"
-        android:textColor="#ffffff"
-        android:layout_below="@id/btnAceptar"
-        android:layout_centerHorizontal="true"/>
+        android:textColor="#ffffff" />
 
 
 

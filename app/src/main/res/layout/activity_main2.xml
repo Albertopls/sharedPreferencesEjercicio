@@ -28,18 +28,18 @@
         android:textColorHint="#ffffff"/>
 
     <EditText
+        android:id="@+id/campoCorreo2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/campoCorreo"
         android:layout_marginBottom="30dp"
         android:hint="Correo"
-        android:textColorHint="#fcfcfc"/>
+        android:textColorHint="#fcfcfc" />
 
 
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/campocontraseña"
+        android:id="@+id/campocontraseña2"
         android:layout_marginBottom="50dp"
         android:hint="Contraseña"
         android:textColorHint="#ffffff"/>
@@ -58,7 +58,7 @@
             android:textColor="#ffffff" />
 
         <Button
-            android:id="@+id/btnAceptar"
+            android:id="@+id/btnAceptar2"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
