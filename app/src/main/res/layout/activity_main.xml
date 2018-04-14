@@ -28,13 +28,13 @@
         android:textColorHint="#ffffff"/>
 
     <EditText
+        android:id="@+id/campocontraseña1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/campocontraseña1"
         android:layout_below="@id/campocorreo1"
         android:hint="Contraseña"
-        android:textColorHint="#ffffff"
-        />
+        android:inputType="textPassword"
+        android:textColorHint="#ffffff" />
 
 
 
